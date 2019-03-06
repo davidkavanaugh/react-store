@@ -1,33 +1,40 @@
-.App {
-  text-align: center;
+
+
+.spacer{
+    margin: 0 15px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#snipcart-footer{
+    display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#snipcart-header{
+    color: white;
+    background: #3F51B5;
+}
+#snipcart-header .snip-header__total{
+    padding: 0;
+    background: transparent;
+}
+#snipcart-header .snip-header__total-label{
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#snipcart-title{
+    font-size: 1.5em;
+}
+#snipcart-actions .snip-btn{
+    color: white;
+    background: #3F51B5;
+}
+#snipcart-sub-content .snip-btn{
+    color: white;
+    background: #3F51B5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#snipcart-sub-content .snip-product__empty{
+    font-size: 1.2em;
+}
+#snipcart-main-content{
+    font-family: 'Roboto', sans-serif;
 }

@@ -1,0 +1,9 @@
+.product{
+    padding: 25px 25px;
+}
+.product button{
+    margin-top: 10px;
+}
+.product__description{
+    margin-top: 25px;
+}
