@@ -10,7 +10,7 @@ class Product extends Component {
   }
 
   async componentDidMount() {
-    let response = await fetch(`https://online-store-cms.herokuapp.com/${this.props.match.params.id}`)
+    let response = await fetch(`https://online-store-cms.herokuapp.com/products/${this.props.match.params.id}`)
     let data = await response.json()
     this.setState({
       loading: false,

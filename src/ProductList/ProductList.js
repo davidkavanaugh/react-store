@@ -15,7 +15,7 @@ class ProductList extends Component {
   }
 
   async componentDidMount() {
-    let response = await fetch("https://online-store-cms.herokuapp.com");
+    let response = await fetch("https://online-store-cms.herokuapp.com/products/");
     if (!response.ok) {
       return
     }
