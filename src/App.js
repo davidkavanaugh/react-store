@@ -5,7 +5,15 @@ import Product from './Product/Product';
 import ProductList from './ProductList/ProductList';
 import './App.css';
 
+
+// var closeX = document.getElementById("snipcart-close").getElementByTagName("a");
+// var exit = document.createElement("div");
+// exit.innerHTML = "<Button>EXIT</Button>";
+// closeX.replaceChild(closeX, closeX);
+
+
 class App extends Component {
+
   render() {
     return (
       <div className="App">
