@@ -15,7 +15,7 @@ class ProductList extends Component {
   }
 
   async componentDidMount() {
-    let response = await fetch("https://online-store-cms.herokuapp.com/products/");
+    let response = await fetch("http://localhost:1337/products/");
     if (!response.ok) {
       return
     }
@@ -35,7 +35,7 @@ class ProductList extends Component {
                 <div className="ProductList-product" key={product.id}>
                   <Link className="flex" to={`/product/${product.id}`}>
                     <h3>{product.name}</h3>
-                    <img src={`https://online-store-cms.herokuapp.com${product.image.url}`} alt={product.name} /><br />
+                    <img src={`http://localhost:1337${product.image.url}`} alt={product.name} /><br />
                   </Link>
                   <BuyButton product={product} />
                 </div>

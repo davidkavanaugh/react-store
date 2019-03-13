@@ -38,3 +38,7 @@
 #snipcart-main-content{
     font-family: 'Roboto', sans-serif;
 }
+
+.snip-product__remove{
+    display:none;
+}
