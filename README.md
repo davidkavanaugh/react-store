@@ -1,1 +1,1 @@
-see demo [here](https://react-online-store.herokuapp.com/).
+A simple online store made with React, SnipCart, and [this strapi CMS](https://github.com/davidkavanaugh/strapi-cms).
